@@ -87,7 +87,7 @@ A modern generative studio powered by Google's latest Gemini Flash model for rap
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/WeIntern-Week2-AI.git
+git clone https://github.com/<yagnesh747>/WeIntern-Week2-AI.git
 cd WeIntern-Week2-AI
 ```
 
