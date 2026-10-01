@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WeIntern AI Chatbot - Your 24/7 intelligent customer support assistant." />
+  <title>WeIntern AI Support Chatbot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+<div class="page-wrapper">
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-logo" aria-hidden="true">WI</div>
+        <div class="brand-text">
+          <span class="brand-name">WeIntern</span>
+          <span class="brand-tagline">Pvt Ltd &bull; AI Support</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="main-layout" role="main">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" aria-label="Quick topics">
+      <h2 class="sidebar-title">Quick Topics</h2>
+      <ul class="topic-list" role="list">
+        <li><button class="topic-btn" data-msg="Hello! I need some help." id="topic-greeting">👋 Greeting</button></li>
+        <li><button class="topic-btn" data-msg="What services does WeIntern offer?" id="topic-services">🎓 Services</button></li>
+        <li><button class="topic-btn" data-msg="What is WeIntern?" id="topic-about">ℹ️ About Us</button></li>
+        <li><button class="topic-btn" data-msg="How can I track my application?" id="topic-order">📦 Order Status</button></li>
+        <li><button class="topic-btn" data-msg="When will I get my certificate?" id="topic-delivery">🚚 Delivery</button></li>
+        <li><button class="topic-btn" data-msg="I want a refund" id="topic-refund">💰 Refund Policy</button></li>
+        <li><button class="topic-btn" data-msg="How do I cancel my enrollment?" id="topic-cancel">❌ Cancellation</button></li>
+        <li><button class="topic-btn" data-msg="What payment methods are accepted?" id="topic-payment">💳 Payment</button></li>
+        <li><button class="topic-btn" data-msg="How do I contact support?" id="topic-contact">📞 Contact</button></li>
+        <li><button class="topic-btn" data-msg="What are your working hours?" id="topic-hours">⏰ Hours</button></li>
+      </ul>
+
+      <div class="sidebar-info">
+        <div class="info-row">
+          <span class="info-dot online"></span>
+          <span>AI Online 24/7</span>
+        </div>
+        <div class="info-row">
+          <span>🧠 TF-IDF + Cosine Similarity</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Chat Panel -->
+    <section class="chat-panel" aria-label="Chat interface">
+
+      <!-- Chat header -->
+      <div class="chat-header">
+        <div class="agent-info">
+          <div class="agent-avatar" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" style="color:#ffffff;">
+              <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+              <circle cx="12" cy="5" r="2"></circle>
+              <path d="M12 7v4"></path>
+              <line x1="8" y1="16" x2="8.01" y2="16"></line>
+              <line x1="16" y1="16" x2="16.01" y2="16"></line>
+            </svg>
+          </div>
+          <div class="agent-details">
+            <span class="agent-name">WeIntern Assistant</span>
+            <span class="agent-status">
+              <span class="status-dot" aria-hidden="true"></span>
+              Online &mdash; Ready to help
+            </span>
+          </div>
+        </div>
+        <button class="clear-btn" id="clear-btn" aria-label="Clear conversation">
+          🗑️ Clear Chat
+        </button>
+      </div>
+
+      <!-- Messages -->
+      <div class="messages-area" id="messages-area" role="log" aria-live="polite"></div>
+
+      <!-- Typing indicator -->
+      <div class="typing-indicator" id="typing-indicator" aria-live="polite" hidden>
+        <div class="typing-bubble">
+          <span class="typing-dot"></span>
+          <span class="typing-dot"></span>
+          <span class="typing-dot"></span>
+        </div>
+        <span class="typing-label">WeIntern Assistant is typing&hellip;</span>
+      </div>
+
+      <!-- Input -->
+      <div class="input-bar" role="form" aria-label="Message input">
+        <textarea
+          id="user-input"
+          class="input-field"
+          placeholder="Type your message&hellip; (Enter to send)"
+          rows="1"
+          maxlength="500"
+          aria-label="Type your message"
+          autocomplete="off"
+          spellcheck="true"
+        ></textarea>
+        <button class="send-btn" id="send-btn" aria-label="Send message">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+               stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+      <div class="char-counter" id="char-counter" aria-live="polite">0 / 500</div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <p>AI Support Chatbot &bull; Flask + scikit-learn</p>
+  </footer>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>

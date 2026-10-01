@@ -1,0 +1,181 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello", "hi", "hey", "good morning", "good afternoon", "good evening",
+        "howdy", "what's up", "greetings", "hi there", "hello there", "hey there", "sup", "yo"
+      ],
+      "responses": [
+        "Hello! Welcome to WeIntern Support. How can I assist you today?",
+        "Hi there! I'm your WeIntern virtual assistant. What can I help you with?",
+        "Hey! Great to see you. How may I help you today?",
+        "Good day! I'm here to help. What do you need assistance with?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you later", "see ya", "take care", "farewell",
+        "talk to you later", "ttyl", "have a good day", "catch you later", "i'm done", "that's all", "exit", "quit"
+      ],
+      "responses": [
+        "Goodbye! Have a wonderful day. Feel free to return if you need more help!",
+        "Take care! We're always here if you need assistance.",
+        "Bye! Thank you for contacting WeIntern Support. Have a great day!",
+        "Farewell! Don't hesitate to reach out if you need anything else."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "thank you so much", "thanks a lot", "many thanks",
+        "much appreciated", "appreciate it", "that helped", "great help", "cheers", "thx", "ty", "thank u", "grateful"
+      ],
+      "responses": [
+        "You're very welcome! Is there anything else I can help you with?",
+        "Happy to help! Let me know if you have any other questions.",
+        "Glad I could assist! Anything else on your mind?",
+        "My pleasure! Don't hesitate to ask if you need more help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "what are you", "who are you", "tell me about yourself", "what is weintern", "about weintern",
+        "company info", "what does weintern do", "tell me about this company", "what is this",
+        "introduce yourself", "what is this chatbot", "who made you"
+      ],
+      "responses": [
+        "I'm the WeIntern virtual assistant! WeIntern Pvt Ltd is a leading internship platform connecting students with top companies. I'm here to help you with any queries related to our services.",
+        "WeIntern Pvt Ltd is a premier internship and career development platform. We help students and fresh graduates find meaningful internship opportunities. I'm your AI-powered support assistant!",
+        "I'm WeIntern's smart support chatbot powered by NLP and machine learning. WeIntern Pvt Ltd specializes in facilitating internships across various domains like tech, marketing, finance, and design."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "what services do you offer", "what can you help with", "your services", "available services",
+        "what do you provide", "list your services", "what kind of help", "features", "offerings",
+        "what programs do you have", "internship programs", "what domains", "which fields"
+      ],
+      "responses": [
+        "WeIntern offers a wide range of services:\n\u2022 Internship placement in 15+ domains\n\u2022 Resume review & building\n\u2022 Certification programs\n\u2022 Career counseling\n\u2022 Mentorship sessions\n\u2022 Project-based learning",
+        "Our services include internship placements in Tech, Marketing, Finance, Design, HR, Data Science, and more. We also provide resume building, career counseling, and certification programs.",
+        "WeIntern provides: Internship matching, Skill development courses, Certificate issuance, Career guidance, Company tie-ups, and Resume review services."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order", "track my order", "order status", "check my order", "order tracking",
+        "my order details", "what happened to my order", "order not received", "application status",
+        "check my application", "track my application", "internship application status",
+        "where is my application", "application update"
+      ],
+      "responses": [
+        "To check your application/order status, please visit your dashboard at weintern.com/dashboard and log in with your credentials. You can track real-time updates there.",
+        "You can track your order or application status by: 1) Logging into your WeIntern account, 2) Navigating to 'My Applications', 3) Viewing the status column. If the issue persists, email us at support@weintern.com",
+        "Your application status is updated in real-time on our portal. Log in at weintern.com, go to Dashboard > My Applications. If you don't see an update within 48 hours, please contact our support team."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "when will i receive", "delivery time", "how long does it take", "delivery status",
+        "when will i get my certificate", "certificate delivery", "offer letter delivery",
+        "how long for response", "response time", "when will i hear back", "processing time", "timeframe", "how many days"
+      ],
+      "responses": [
+        "Our standard delivery timelines:\n\u2022 Offer letter: 2-3 business days after selection\n\u2022 Certificate: 5-7 business days after completion\n\u2022 Physical documents: 7-10 business days\nYou'll receive email notifications at each step!",
+        "Certificates are typically issued within 5-7 business days of internship completion. Offer letters are sent within 2-3 days of selection. All documents are first sent digitally via email.",
+        "Response time for applications is usually 3-5 business days. Once selected, your offer letter arrives within 48 hours. Certificates are processed within a week of program completion."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "refund", "get my money back", "refund policy", "cancel and refund", "i want a refund",
+        "how to get refund", "refund request", "money back", "return money", "reimbursement",
+        "refund process", "refund status", "where is my refund"
+      ],
+      "responses": [
+        "Our refund policy:\n\u2022 Full refund within 7 days of enrollment\n\u2022 50% refund within 7-14 days\n\u2022 No refund after 14 days\nTo initiate a refund, email refunds@weintern.com with your order ID and reason.",
+        "Refunds are processed within 5-7 business days after approval. To request one: 1) Email refunds@weintern.com, 2) Include your Order ID, 3) State your reason. Our team will respond within 24-48 hours.",
+        "For refund requests, please contact our billing team at refunds@weintern.com or call +91-9876543210. Ensure you have your enrollment ID ready. Refunds are credited to the original payment method."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "cancel my order", "how to cancel", "cancel subscription", "cancel my application",
+        "cancel enrollment", "cancellation policy", "want to cancel", "stop my internship",
+        "withdraw application", "cancel registration", "cancel my account", "discontinue"
+      ],
+      "responses": [
+        "To cancel your enrollment or application: 1) Log in to your WeIntern account, 2) Go to 'My Applications', 3) Click 'Cancel Application'. Or email cancel@weintern.com with your reason.",
+        "Cancellations can be done through your dashboard or by contacting support. Please note: cancellations within 24 hours of placement confirmation may incur a processing fee.",
+        "To withdraw your application or cancel enrollment, visit weintern.com/dashboard > My Applications > Cancel. For program cancellations, please email us at support@weintern.com with your enrollment ID."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "payment", "how to pay", "payment methods", "accepted payments", "pay online",
+        "payment failed", "payment issue", "billing", "invoice", "fee structure",
+        "program fees", "cost", "pricing", "how much does it cost", "payment options"
+      ],
+      "responses": [
+        "We accept the following payment methods:\n\u2022 Credit/Debit Cards (Visa, MasterCard)\n\u2022 UPI (PhonePe, Google Pay, Paytm)\n\u2022 Net Banking\n\u2022 EMI options available\nFor payment issues, contact billing@weintern.com",
+        "Our fee structure varies by program. Basic internships are FREE. Premium programs start at Rs.999. We accept UPI, cards, and net banking. For a detailed fee breakdown, visit weintern.com/pricing",
+        "Payment issues? Here's what to do: 1) Clear browser cache and retry, 2) Try a different payment method, 3) Ensure your bank allows online transactions, 4) Contact billing@weintern.com if the issue persists."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact support", "how to contact", "reach you", "customer service", "helpline",
+        "support number", "email address", "phone number", "contact information", "get in touch",
+        "contact us", "support team", "talk to a human", "speak with agent", "live support"
+      ],
+      "responses": [
+        "Here's how to reach us:\n\u2022 Email: support@weintern.com\n\u2022 Phone: +91-9876543210\n\u2022 Live Chat: weintern.com/chat\n\u2022 Office: WeIntern Pvt Ltd, Bangalore, Karnataka\n\u2022 Hours: Mon-Sat, 9 AM - 6 PM IST",
+        "Our support channels:\n\u2022 Email: support@weintern.com (24-48hr response)\n\u2022 Phone: +91-9876543210 (Mon-Sat, 9AM-6PM)\n\u2022 WhatsApp: +91-9876543211\nFor urgent issues, call us directly!",
+        "You can reach WeIntern support via:\n\u2022 General: support@weintern.com\n\u2022 Billing: billing@weintern.com\n\u2022 Refunds: refunds@weintern.com\n\u2022 Helpline: +91-9876543210\nWe're available Monday to Saturday, 9 AM to 6 PM IST."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "working_hours",
+      "patterns": [
+        "working hours", "business hours", "office hours", "when are you open", "opening time",
+        "closing time", "support hours", "when can i contact", "are you open now", "available hours",
+        "timing", "schedule", "open on weekends", "open on sunday"
+      ],
+      "responses": [
+        "WeIntern support is available:\n\u2022 Monday to Friday: 9:00 AM - 6:00 PM IST\n\u2022 Saturday: 10:00 AM - 4:00 PM IST\n\u2022 Sunday: Closed\nFor off-hours, email us at support@weintern.com and we'll respond the next business day.",
+        "Our office hours are:\n\u2022 Weekdays (Mon-Fri): 9 AM to 6 PM IST\n\u2022 Saturdays: 10 AM to 4 PM IST\n\u2022 Sundays & Public Holidays: Closed\nYou can always use this chatbot 24/7!",
+        "Human support is available Mon-Sat, 9AM-6PM IST. However, I (your AI assistant) am available 24/7 to answer your questions! For complex queries outside office hours, email support@weintern.com."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I’m not sure I understand that yet. I can help with orders, delivery, refunds, cancellations, payments, services, or contact information. What would you like help with?"
+      ],
+      "context_set": ""
+    }
+  ]
+}

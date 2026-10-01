@@ -1,0 +1,17 @@
+Job Title: Senior Java Developer
+Experience: 4-7 years
+Location: Hybrid
+
+About the Role:
+Looking for a Senior Java Developer to design scalable enterprise backend microservices.
+
+Key Responsibilities:
+- Develop robust REST APIs using Java, Spring Boot, and Spring Cloud.
+- Manage databases using PostgreSQL, MySQL, and Hibernate/JPA.
+- Implement event-driven architectures with Kafka and RabbitMQ.
+- Deploy applications using Docker, Kubernetes, and CI/CD pipelines.
+
+Required Skills:
+- B.Tech or M.Tech in Computer Science or IT.
+- 4+ years experience in Java, Spring Boot, Microservices, and REST APIs.
+- Proficient in SQL, PostgreSQL, Hibernate, Docker, Git, and JUnit.

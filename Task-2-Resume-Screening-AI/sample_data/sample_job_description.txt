@@ -1,0 +1,18 @@
+Job Title: Senior AI/ML Engineer
+Experience: 3-6 years
+Location: Remote / Hybrid
+
+About the Role:
+We are looking for a skilled Senior AI/ML Engineer to build and deploy robust machine learning models and NLP systems.
+
+Key Responsibilities:
+- Design and deploy NLP models using Python, PyTorch, and TensorFlow.
+- Work with HuggingFace, BERT, and Large Language Models.
+- Build production pipelines with Docker, Kubernetes, and AWS.
+- Collaborate with engineering teams to integrate ML microservices with FastAPI.
+
+Required Skills & Qualifications:
+- Degree in Computer Science, Data Science, or related field.
+- 4+ years experience in Python, Machine Learning, Deep Learning, and NLP.
+- Expertise in PyTorch, TensorFlow, Scikit-learn, Pandas, and NumPy.
+- Familiarity with HuggingFace, SpaCy, Docker, AWS, and Git.

@@ -1,0 +1,80 @@
+{
+  "categories": {
+    "programming_languages": [
+      "Python", "Java", "C++", "C", "C#", "JavaScript", "TypeScript",
+      "Go", "Rust", "Ruby", "PHP", "Swift", "Kotlin", "Scala", "R",
+      "Dart", "SQL", "Bash", "Shell", "PowerShell", "Perl", "MATLAB"
+    ],
+    "web_technologies": [
+      "HTML", "HTML5", "CSS", "CSS3", "React", "Angular",
+      "Vue.js", "Next.js", "Nuxt.js", "Node.js", "Express",
+      "Django", "Flask", "FastAPI", "Spring Boot", "REST API",
+      "GraphQL", "Tailwind CSS", "Bootstrap", "Sass",
+      "WebSockets", "Redux"
+    ],
+    "databases": [
+      "PostgreSQL", "MySQL", "SQLite", "MongoDB", "Redis", "Cassandra",
+      "DynamoDB", "Oracle", "Elasticsearch", "Neo4j", "Firebase",
+      "Supabase", "Microsoft SQL Server", "Snowflake", "BigQuery", "MariaDB"
+    ],
+    "ai_ml_technologies": [
+      "Machine Learning", "Deep Learning", "NLP", "Natural Language Processing",
+      "Computer Vision", "Large Language Models", "LLMs", "TensorFlow",
+      "PyTorch", "Keras", "Scikit-Learn", "Pandas", "NumPy",
+      "SciPy", "OpenCV", "NLTK", "SpaCy", "Transformers", "HuggingFace",
+      "LangChain", "LlamaIndex", "Reinforcement Learning", "XGBoost",
+      "LightGBM", "Data Science", "Neural Networks", "BERT", "GPT", "RAG"
+    ],
+    "cloud_dev_tools": [
+      "AWS", "Amazon Web Services", "Azure", "Google Cloud", "GCP",
+      "Docker", "Kubernetes", "Git", "GitHub", "GitLab", "CI/CD",
+      "Jenkins", "Terraform", "Ansible", "Linux", "JIRA", "Postman",
+      "Kafka", "RabbitMQ", "Prometheus", "Grafana",
+      "Nginx", "Apache"
+    ],
+    "frameworks": [
+      ".NET", ".NET Core", "Django", "Flask", "FastAPI", "Spring",
+      "Spring Boot", "Express", "React Native", "Flutter", "Ruby on Rails",
+      "Laravel", "ASP.NET"
+    ],
+    "core_cs_skills": [
+      "Data Structures", "Algorithms", "Object-Oriented Programming", "OOP",
+      "System Design", "Microservices", "Operating Systems",
+      "DBMS", "Computer Networks", "Agile",
+      "Scrum", "SDLC", "Unit Testing",
+      "Problem Solving", "Multithreading"
+    ]
+  },
+  "aliases": {
+    "reactjs": "React",
+    "react.js": "React",
+    "nodejs": "Node.js",
+    "node.js": "Node.js",
+    "expressjs": "Express",
+    "vuejs": "Vue.js",
+    "nextjs": "Next.js",
+    "golang": "Go",
+    "sklearn": "Scikit-Learn",
+    "scikit learn": "Scikit-Learn",
+    "scikit-learn": "Scikit-Learn",
+    "postgres": "PostgreSQL",
+    "mongo": "MongoDB",
+    "k8s": "Kubernetes",
+    "amazon web services": "AWS",
+    "google cloud platform": "GCP",
+    "google cloud": "GCP",
+    "ml": "Machine Learning",
+    "dl": "Deep Learning",
+    "llm": "Large Language Models",
+    "llms": "Large Language Models",
+    "cv": "Computer Vision",
+    "hugging face": "HuggingFace",
+    "rest": "REST API",
+    "restful": "REST API",
+    "rest apis": "REST API",
+    "restful apis": "REST API",
+    "oops": "OOP",
+    "dsa": "Data Structures",
+    "ds & algo": "Data Structures"
+  }
+}
